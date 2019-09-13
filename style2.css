@@ -4,7 +4,6 @@
 
 .body-container{
   display: flex;
-  justify-content: space-between;
   align-items: center; 
   background-color: #e6ffe6;
 }
@@ -13,26 +12,36 @@
   background-color: #fff;
   order: -1;
   flex-direction: column;
-  margin: 10px;
+  margin-right: 100px;
   align-self: flex-start;
   display: flex;
   width: 125px;
   height: 500px;
-  border: 1px solid #000;  
+  border: 5px solid #e6ffe6;  
   justify-content: space-around;
   align-items: center;
 }
 
 .body-image-container{
-  margin: 10px 350px 10px 10px;
   width: 600px;
   height: 500px;
   order: 1;
   display: flex;
-  border: 1px solid #000;
+  border: 5px solid #e6ffe6;
   background-color: #fff;
   justify-content: center;
   align-items: center;
+}
+
+.body-text-container{
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  order: 1;
+  border: 5px solid #e6ffe6;
+  background-color: #fff;
+  justify-content: flex-start;
+  align-items: center;  
 }
 
 .links{
