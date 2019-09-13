@@ -31,9 +31,15 @@
   display: flex;
   border: 1px solid #000;
   background-color: #fff;
+  justify-content: center;
+  align-items: center;
 }
 
 .links{
   /* border: 1px solid #000; */
     
+}
+
+.body-images{
+ margin 10px;
 }
