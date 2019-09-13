@@ -1,95 +1,20 @@
-﻿.flex1{
- 	display: flex;
-	background-color: #FFF133;
-	width: 125px;
-	height: 375px;
-	align-content: center;
-	justify-content: center;
-	flex-direction: column;
+﻿*{
+  box-sizing: border-box;
 }
 
-.flex1 > span{
-	background-color: #F5F6E5;
-	width: 100px;
-	margin: auto;
-	text-align: center;
-	line-height: 30px;
-	font-size: 15px;
-
-.flex1 > img{
-	background-color: #FF133;
-	width: 1000px;
-	height: 750px;
+.body-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: #80bfff;
 }
 
-.imagecont{
-	background-color: #FF133;
-	max-width: 1000px;
-	padding 15px;
-}
-
-.imagecont > img{
-	float: right;
-	background-color #00000;
-	width: 500;
-	height: 400;
-}
-
-.center{
-	
-	display: block;
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	vertical-align: middle;
-	border: 0px none;
-}
-
-.index{
-	text-align:left;
-	width: 50px;
-	margin-top: 100px;
-	margin-left: 25px;
-	margin-right: 25px;
-	
-}
-
-@font-face {
-	font-family: Oslo;
-	src: url(oslo.bold.ttf);
-}
-
-h1{
-	text-align:center;
-	background-color:#b3ffb3;	
-}
-
-p{
-	text-align:center;
-	background-color:#b3ffb3;	
-}
-
-img{
-	display: inline;
-	border:3px solid #ddd;
-	padding: 5px;
-}
-
-a:link {
-	text-decoration: underline blue;
-	background-color:white;
-}
-
-a:visited {
-	text-decoration: underline green;
-	background-color:white;		
-}
-
-a:active {
-	text-decoration: underline overline wavy white;
-	background-color:white;
-}
-
-body{
-	background-color: #b3ffb3;
+.sidebar-container{
+  order: 1;
+  margin: 10px;
+  align-self: flex-start;
+  display: flex;
+  width: 100px;
+  height: 500px;
+  border: 5px solid #000;  
 }
