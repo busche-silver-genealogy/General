@@ -11,7 +11,7 @@
 
 .sidebar-container{
   background-color: #fff;
-  order: 1;
+  order: -1;
   flex-direction: column;
   margin: 10px;
   align-self: flex-start;
@@ -21,6 +21,16 @@
   border: 1px solid #000;  
   justify-content: space-around;
   align-items: center;
+}
+
+.body-image-container{
+  margin: 10px 350px 10px 10px;
+  width: 600px;
+  height: 500px;
+  order: 1;
+  display: flex;
+  border: 1px solid #000;
+  background-color: #fff;
 }
 
 .links{
