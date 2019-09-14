@@ -19,7 +19,7 @@
   height: 500px;
   border: 5px solid #e6ffe6;  
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .body-image-container{
@@ -35,19 +35,35 @@
 
 .body-text-container{
   display: flex;
+  flex-direction: column;
   width: 1000px;
   height: 500px;
   order: 1;
   border: 5px solid #e6ffe6;
   background-color: #fff;
   justify-content: flex-start;
-  align-items: center;  
+  align-items: flex-start;  
 }
 
 .links{
   /* border: 1px solid #000; */
-  margin: 20px 5px 5px 0px
+  margin: 20px 5px 0px 5px;
     
+}
+
+.linkbox{
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 100px;
+  border: 1px solid #000;
+  margin: 10px;
+  justify-content: flex-start;
+  align-items: flex-start; 
+}
+
+.linktext{
+  margin: 20px 5px 0px 5px;
 }
 
 .body-images{
