@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+.top-container{
+  display: flex;
+  align-self: center;
+  margin: 10px
+  height: 100px;
+  width: 1000px;
+  background-color: #e6ffe6;
+  
+}
+
 .body-container{
   display: flex;
   align-items: center; 
