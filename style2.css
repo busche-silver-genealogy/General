@@ -69,9 +69,9 @@ just an idea */
 }
 
 .body-text-container{
+  display: flex;
   flex-direction: column;
   align-self: center;
-  display: flex;
   width: 1000px; 
   height: 500px;
   order: 1;
@@ -84,6 +84,7 @@ just an idea */
 .body-long-container{
   display: flex;
   flex-direction: column;
+  align-self: flex-start;
   width: 1000px;
   order: 1;
   border: 5px solid #e6ffe6;
