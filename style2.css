@@ -40,6 +40,21 @@ just an idea */
   padding: 10px
 }
 
+.body-head-container{
+  display: flex;
+  align-self: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e6ffe6;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-header{
+  padding: 5px 10px 5px 10px;
+  background-color: #fff;
+}
+
 .sidebar-container{
   /* display: flex; debug*/
   background-color: #fff;
@@ -113,6 +128,8 @@ just an idea */
 .linktext{
   margin: 20px 5px 0px 5px;
 }
+
+
 
 .textbox{
   display: flex;
