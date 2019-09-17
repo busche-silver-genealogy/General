@@ -43,8 +43,8 @@ just an idea */
 .body-head-container{
   display: flex;
   align-self: center;
-  margin: 10px;
-  padding: 10px;
+  margin: 10px;  
+  padding: 5px; /*change*/
   background-color: #e6ffe6;
   justify-content: center;
   align-items: center;
@@ -80,7 +80,21 @@ just an idea */
   border: 5px solid #e6ffe6;
   background-color: #fff;
   justify-content: center;
-  align-items: center; debug 
+  align-items: center; 
+}
+
+.body-image-long{
+  flex-direction: column;
+  align-self: center;
+  display: flex;
+  padding: 5px;
+  /*width: 1000px; 
+  height: 500px; debug */
+  order: 1;
+  border: 5px solid #e6ffe6;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center; 
 }
 
 .body-text-container{
