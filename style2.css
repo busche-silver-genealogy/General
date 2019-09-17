@@ -118,15 +118,17 @@ just an idea */
   display: flex;
   flex-direction: column;
   width: 900px;
-  height: 100px;
+  /*height: 100px; */
   border: 1px solid #000;
   margin: 10px;
+  padding: 10px;
   justify-content: flex-start;
   align-items: flex-start; 
 }
 
 .linktext{
   margin: 20px 5px 0px 5px;
+  flex-wrap: wrap;
 }
 
 
