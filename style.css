@@ -32,12 +32,25 @@ just an idea */
 }
 
 .body-container{
+  flex-wrap: wrap;
   display: flex;
   align-items: center; 
-   background-color: #e6ffe6;
-  /* width: 2000px;  debug*/
+  background-color: #e6ffe6;
+  /*width: 1000px;  debug*/
   margin: 10px;
   padding: 10px
+}
+
+.body-long-container{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 1000px;
+  order: 1;
+  border: 5px solid #e6ffe6;
+  background-color: #fff;
+  justify-content: flex-start;
+  align-items: flex-start;   
 }
 
 .body-head-container{
@@ -63,11 +76,16 @@ just an idea */
   /* margin-right: 100px;  debugging */
   align-self: flex-start;
   display: flex;
-  width: 125px;
+  width: 150px;
   height: 500px;
   border: 5px solid #e6ffe6;  
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+img{
+  display: flex;
+  object-fit: contain;;
 }
 
 .body-image-container{
@@ -87,14 +105,22 @@ just an idea */
   flex-direction: column;
   align-self: center;
   display: flex;
-  padding: 5px;
-  /*width: 1000px; 
-  height: 500px; debug */
+  flex-wrap: wrap;
+  padding: 0px 5px 0px 5px; 
+  /* width: 1000px; */
+  /* height: 500px; debug */
   order: 1;
   border: 5px solid #e6ffe6;
   background-color: #fff;
-  justify-content: center;
-  align-items: center; 
+  justify-content: flex-start;
+  align-items: flex-start;
+    
+}
+
+.body-images{
+ margin: 5px;
+ align-self: center;
+ /*object-fit: scale-down;*/
 }
 
 .body-text-container{
@@ -108,18 +134,6 @@ just an idea */
   background-color: #fff;
   justify-content: flex-start;
   align-items: flex-start;  
-}
-
-.body-long-container{
-  display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-  width: 1000px;
-  order: 1;
-  border: 5px solid #e6ffe6;
-  background-color: #fff;
-  justify-content: flex-start;
-  align-items: flex-start;   
 }
 
 .links{
@@ -157,6 +171,4 @@ just an idea */
   align-items: flex-start; 
 }
 
-.body-images{
- margin: 5px;
-}
+
