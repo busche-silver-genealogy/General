@@ -107,7 +107,7 @@ img{
   display: flex;
   flex-wrap: wrap;
   padding: 0 5px 0 5px;
-   width: 1000px;
+  /*width: 1000px;*/
   /* height: 500px; debug */
   order: 1;
   border: 5px solid #e6ffe6;
