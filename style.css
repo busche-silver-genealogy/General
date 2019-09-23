@@ -106,8 +106,8 @@ img{
   align-self: center;
   display: flex;
   flex-wrap: wrap;
-  padding: 0px 5px 0px 5px; 
-  /* width: 1000px; */
+  padding: 0 5px 0 5px;
+   width: 1000px;
   /* height: 500px; debug */
   order: 1;
   border: 5px solid #e6ffe6;
@@ -138,7 +138,7 @@ img{
 
 .links{
   /* border: 1px solid #000; */
-  margin: 20px 5px 0px 5px;
+  margin: 20px 5px 0 5px;
     
 }
 
@@ -155,7 +155,7 @@ img{
 }
 
 .linktext{
-  margin: 20px 5px 0px 5px;
+  margin: 20px 5px 0 5px;
   flex-wrap: wrap;
 }
 
@@ -163,7 +163,7 @@ img{
 
 .textbox{
   display: flex;
-  flex-diretion: column;
+  flex-direction: column;
   width: 900px;
   border: 1px solid #000;
   margin: 10px;
