@@ -34,7 +34,7 @@ just an idea */
 .body-container{
   flex-wrap: wrap;
   display: flex;
-  align-items: center; 
+  align-items: center;
   background-color: #e6ffe6;
   /*width: 1000px;  debug*/
   margin: 10px;
@@ -85,7 +85,15 @@ just an idea */
 
 img{
   display: flex;
-  object-fit: contain;;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  margin: 5px;
+}
+
+.home-images{
+  display: flex;
+  align-self: center;
 }
 
 .body-image-container{
@@ -107,7 +115,8 @@ img{
   display: flex;
   flex-wrap: wrap;
   padding: 0 5px 0 5px;
-  /*width: 1000px;*/
+  width: 75%;
+  /*width: 2000px; */
   /* height: 500px; debug */
   order: 1;
   border: 5px solid #e6ffe6;
@@ -117,11 +126,6 @@ img{
     
 }
 
-.body-images{
- margin: 5px;
- align-self: center;
- /*object-fit: scale-down;*/
-}
 
 .body-text-container{
   display: flex;
