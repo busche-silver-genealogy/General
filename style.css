@@ -45,7 +45,9 @@ just an idea */
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    width: 1000px;
+    /*width: 1000px;*/
+    width: 75%;
+    flex-wrap: wrap;
     order: 1;
     border: 5px solid #e6ffe6;
     background-color: #fff;
@@ -83,6 +85,70 @@ just an idea */
     align-items: flex-start;
 }
 
+/* the following code was copy-pasted from another test project I was working on */
+.button-container{
+    display:flex;
+    order: -1;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 150px;
+    height: 500px;
+    border: 5px solid #e6ffe6;
+    justify-content: flex-start;
+    background-color: #f0faff;
+    padding: 10px;
+
+    /*align-content: flex-start;*/
+}
+
+button{
+    border-radius: 10px;
+    font-size: 15px;
+    color: #407273;
+    font-weight: bold;
+    transition-duration: .3s;
+    display: flex;
+    margin: 5px;
+    padding: 5px 10px 10px 5px;
+    justify-content: center;
+    background-color: #b8f3ff;
+}
+
+button:hover{
+    background-color: #ebfffc;
+}
+
+button:hover .drop-button{
+    display: flex;
+}
+
+.drop-container{
+    background-color: #f0faff;
+    display: flex;
+    width: 100px;
+    margin-left: auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+.drop-button{
+    border-radius: 10px;
+    font-size: 15px;
+    color: #407273;
+    transition-duration: .3s;
+    display: flex;
+    margin: 2px;
+    padding: 2px 5px 5px 2px;
+    justify-content: center;
+    background-color: #c8fffa;
+}
+
+.drop-button:hover{
+    background-color: #ebfffc;
+}
+
+/*end code from other project */
+
 img{
     display: flex;
     object-fit: contain;
@@ -100,7 +166,8 @@ img{
     flex-direction: column;
     align-self: center;
     display: flex;
-    width: 1000px;
+    /*width: 1000px;*/
+    width: 75%;
     height: 500px;
     order: 1;
     border: 5px solid #e6ffe6;
@@ -174,5 +241,8 @@ img{
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+
+
 
 

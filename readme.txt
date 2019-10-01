@@ -11,6 +11,7 @@ Learning to do HTML using these resources, plus misc. forum posts and the like
 --> finally figured out how to fit images here https://stackoverflow.com/questions/37127384/why-isnt-object-fit-working-in-flexbox
 --> javascript:
  -->> https://www.youtube.com/watch?v=Ukg_U3CnJWI&list=PL3OmzpzIbhH78tVWUD6_9IYIxyENbFMIE&index=2
+ -->> making button a link: https://stackoverflow.com/questions/10252809/onclick-window-location-href-wont-work-in-chrome-or-safari
 
 not for commercial purposes, but eventually we may host the sale of a print version, priced to recoup the cost of printing
 
