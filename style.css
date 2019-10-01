@@ -41,24 +41,44 @@ just an idea */
     padding: 10px
 }
 
+
+.body-text-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    /*width: 1000px;*/
+    width: 80%;
+    height: 500px;
+    order: 1;
+    border: 5px solid #e6ffe6;
+    background-color: #fff;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+}
+
 .body-long-container{
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     /*width: 1000px;*/
-    width: 75%;
+    width: 80%;
     flex-wrap: wrap;
     order: 1;
     border: 5px solid #e6ffe6;
     background-color: #fff;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 5px;
 }
 
 .body-head-container{
     display: flex;
     align-self: center;
-    margin: 10px;
+    /* margin: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: auto;*/
     padding: 5px; /*change*/
     background-color: #e6ffe6;
     justify-content: center;
@@ -66,16 +86,18 @@ just an idea */
 }
 
 .body-header{
+    margin: auto;
     padding: 5px 10px 5px 10px;
     background-color: #fff;
 }
 
+/*
 .sidebar-container{
-    /* display: flex; debug*/
+
     background-color: #fff;
     order: -1;
     flex-direction: column;
-    /* margin-right: 100px;  debugging */
+
     align-self: flex-start;
     display: flex;
     width: 150px;
@@ -84,6 +106,9 @@ just an idea */
     justify-content: flex-start;
     align-items: flex-start;
 }
+*/
+/*above: deprecated by buttons added below*/
+
 
 /* the following code was copy-pasted from another test project I was working on */
 .button-container{
@@ -94,6 +119,7 @@ just an idea */
     width: 150px;
     height: 500px;
     border: 5px solid #e6ffe6;
+    align-items: flex-start;
     justify-content: flex-start;
     background-color: #f0faff;
     padding: 10px;
@@ -193,20 +219,6 @@ img{
 
 }
 
-
-.body-text-container{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    width: 1000px;
-    height: 500px;
-    order: 1;
-    border: 5px solid #e6ffe6;
-    background-color: #fff;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
 .links{
     /* border: 1px solid #000; */
     margin: 20px 5px 0 5px;
@@ -216,7 +228,8 @@ img{
 .linkbox{
     display: flex;
     flex-direction: column;
-    width: 900px;
+    /*width: 900px;*/
+    width: 90%;
     /*height: 100px; */
     border: 1px solid #000;
     margin: 10px;
@@ -229,8 +242,6 @@ img{
     margin: 20px 5px 0 5px;
     flex-wrap: wrap;
 }
-
-
 
 .textbox{
     display: flex;

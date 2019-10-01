@@ -1,5 +1,8 @@
 ﻿Starter webpage for Silver/Busche Genealogy
 
+This page is meant to both demonstrate my competency in beginning HTML, CSS and JS development, as well as to lay the
+for Amy Silver's (my mom's) genealogy webpage, to be completed along with her eventual print edition of the text.
+
 Learning to do HTML using these resources, plus misc. forum posts and the like
 
 //sources//
