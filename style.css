@@ -31,6 +31,8 @@ just an idea */
 
 }
 
+
+
 .body-container{
     flex-wrap: wrap;
     display: flex;
@@ -68,8 +70,17 @@ just an idea */
     border: 5px solid #e6ffe6;
     background-color: #fff;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     padding: 5px;
+}
+
+iframe{
+    display: flex;
+    /*width: 80vw;*/
+    width: 95%;
+    height: 100vh;
+    margin: 5px;
+    /*height: 80vh;*/
 }
 
 .body-head-container{
@@ -90,25 +101,6 @@ just an idea */
     padding: 5px 10px 5px 10px;
     background-color: #fff;
 }
-
-/*
-.sidebar-container{
-
-    background-color: #fff;
-    order: -1;
-    flex-direction: column;
-
-    align-self: flex-start;
-    display: flex;
-    width: 150px;
-    height: 500px;
-    border: 5px solid #e6ffe6;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-*/
-/*above: deprecated by buttons added below*/
-
 
 /* the following code was copy-pasted from another test project I was working on */
 .button-container{
@@ -218,6 +210,7 @@ img{
     align-items: center;
 
 }
+
 
 .links{
     /* border: 1px solid #000; */
