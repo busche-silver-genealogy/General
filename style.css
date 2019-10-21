@@ -17,7 +17,7 @@ just an idea */
     align-self: center; /* */
     margin: 10px;
     padding: 10px;
-    background-color: #ffe0b3;
+    background-color: #bca52d;
     justify-content: center;
     align-items: center;
 
@@ -26,9 +26,45 @@ just an idea */
 .top-header{
     /*height: 50px;
     width: 1000px;*/
+    display: flex;
+    align-items: center;
+    justify-items: center;
     padding: 5px 50px 5px 50px;
     background-color: #fff;
 
+}
+
+.body-head-container{
+    display: flex;
+    align-self: center;
+    /* margin: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: auto;*/
+    padding: 5px; /*change*/
+    background-color: #ecd235;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-header{
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+    background-color: #fff;
+}
+
+.body-image-container{
+    flex-direction: column;
+    align-self: center;
+    display: flex;
+    /*width: 1000px;*/
+    width: 75%;
+    height: 500px;
+    order: 1;
+    border: 5px solid #ecd235;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -37,26 +73,28 @@ just an idea */
     flex-wrap: wrap;
     display: flex;
     align-items: center;
-    background-color: #e6ffe6;
+    background-color: #bca52d;
     /*width: 1000px;  debug*/
     margin: 10px;
     padding: 10px
 }
 
 
-.body-text-container{
-    display: flex;
+.body-image-long{
     flex-direction: column;
     align-self: center;
-    /*width: 1000px;*/
-    width: 80%;
-    height: 500px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    padding: 0px 5px 0px 5px;
+    width: 75%;
+    /*width: 2000px; */
+    /* height: 500px; debug */
     order: 1;
-    border: 5px solid #e6ffe6;
+    border: 5px solid #ecd235;
     background-color: #fff;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 5px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .body-long-container{
@@ -67,10 +105,25 @@ just an idea */
     width: 80%;
     flex-wrap: wrap;
     order: 1;
-    border: 5px solid #e6ffe6;
+    border: 5px solid #ecd235;
     background-color: #fff;
     justify-content: flex-start;
     align-items: center;
+    padding: 5px;
+}
+
+.body-text-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    /*width: 1000px;*/
+    width: 80%;
+    height: 500px;
+    order: 1;
+    border: 5px solid #ecd235;
+    background-color: #fff;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 5px;
 }
 
@@ -83,24 +136,9 @@ iframe{
     /*height: 80vh;*/
 }
 
-.body-head-container{
-    display: flex;
-    align-self: center;
-    /* margin: 10px; */
-    margin-left: auto;
-    margin-right: auto;
-    /*margin: auto;*/
-    padding: 5px; /*change*/
-    background-color: #e6ffe6;
-    justify-content: center;
-    align-items: center;
-}
 
-.body-header{
-    margin: auto;
-    padding: 5px 10px 5px 10px;
-    background-color: #fff;
-}
+
+
 
 /* the following code was copy-pasted from another test project I was working on */
 .button-container{
@@ -110,7 +148,7 @@ iframe{
     align-self: flex-start;
     width: 150px;
     height: 500px;
-    border: 5px solid #e6ffe6;
+    border: 5px solid #ecd235;
     align-items: flex-start;
     justify-content: flex-start;
     background-color: #f0faff;
@@ -122,18 +160,18 @@ iframe{
 button{
     border-radius: 10px;
     font-size: 15px;
-    color: #407273;
+    color: #29161c;
     font-weight: bold;
     transition-duration: .3s;
     display: flex;
     margin: 5px;
     padding: 5px 10px 10px 5px;
     justify-content: center;
-    background-color: #b8f3ff;
+    background-color: #ecd235;
 }
 
 button:hover{
-    background-color: #ebfffc;
+    background-color: rgba(255, 251, 29, 0.42);
 }
 
 button:hover .drop-button{
@@ -152,17 +190,17 @@ button:hover .drop-button{
 .drop-button{
     border-radius: 10px;
     font-size: 15px;
-    color: #407273;
-    transition-duration: .3s;
+    color: #29161c;
+    transition-duration: .1s;
     display: flex;
     margin: 2px;
     padding: 2px 5px 5px 2px;
     justify-content: center;
-    background-color: #c8fffa;
+    background-color: rgba(227, 201, 51, 0.25);
 }
 
 .drop-button:hover{
-    background-color: #ebfffc;
+    background-color: rgba(255, 251, 29, 0.22);
 }
 
 /*end code from other project */
@@ -180,36 +218,7 @@ img{
     align-self: center;
 }
 
-.body-image-container{
-    flex-direction: column;
-    align-self: center;
-    display: flex;
-    /*width: 1000px;*/
-    width: 75%;
-    height: 500px;
-    order: 1;
-    border: 5px solid #e6ffe6;
-    background-color: #fff;
-    justify-content: center;
-    align-items: center;
-}
 
-.body-image-long{
-    flex-direction: column;
-    align-self: center;
-    display: flex;
-    /*flex-wrap: wrap;*/
-    padding: 0px 5px 0px 5px;
-    width: 75%;
-    /*width: 2000px; */
-    /* height: 500px; debug */
-    order: 1;
-    border: 5px solid #e6ffe6;
-    background-color: #fff;
-    justify-content: center;
-    align-items: center;
-
-}
 
 
 .links{
@@ -224,7 +233,7 @@ img{
     /*width: 900px;*/
     width: 90%;
     /*height: 100px; */
-    border: 1px solid #000;
+    border: 1px solid #ecd235;
     margin: 10px;
     padding: 10px;
     justify-content: flex-start;
@@ -236,7 +245,7 @@ img{
     flex-wrap: wrap;
 }
 
-.textbox{
+/*.textbox{
     display: flex;
     flex-direction: column;
     width: 900px;
@@ -244,7 +253,7 @@ img{
     margin: 10px;
     justify-content: flex-start;
     align-items: flex-start;
-}
+}*/
 
 
 
