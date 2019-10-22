@@ -179,7 +179,7 @@ button:hover .drop-button{
 }
 
 .drop-container{
-    background-color: #f0faff;
+    background-color: #fff;
     display: flex;
     width: 100px;
     margin-left: auto;
