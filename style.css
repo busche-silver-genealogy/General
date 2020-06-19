@@ -34,6 +34,8 @@ just an idea */
 
 }
 
+
+
 .body-head-container{
     display: flex;
     align-self: center;
@@ -213,6 +215,12 @@ img{
     margin: 5px;
 }
 
+.imgB{
+    display: flex;
+    object-fit: none;
+    margin: 5px;
+
+}
 .home-images{
     display: flex;
     align-self: center;
